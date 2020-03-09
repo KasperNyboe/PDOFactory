@@ -1,0 +1,21 @@
+{
+    "name": "pdoi/pdoi",
+    "description": "Extensions to the PDO library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kasper Nyboe",
+            "email": "kasper.nyboe@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "PDOFactory": "src/"
+        }
+    }
+}
